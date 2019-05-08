@@ -25,8 +25,8 @@ try:
   )
   pin = os.fdopen(master, 'w')
 
-  pin.write("alias cat='pygmentize'\n")
-  pin.write("alias diff='diff --color'\n")
+  #pin.write("alias cat='pygmentize'\n")
+  #pin.write("alias diff='diff --color'\n")
   pin.write("clear\n")
 
   with open(sys.argv[1]) as f:
